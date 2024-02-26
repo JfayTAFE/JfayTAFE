@@ -1,0 +1,14 @@
+{
+  "name": "introexercises",
+  "version": "1.0.0",
+  "description": "13-2-24 Exercises",
+  "main": "index.js",
+  "scripts": {
+    "start": "***.js"
+  },
+  "author": "James Fay",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
