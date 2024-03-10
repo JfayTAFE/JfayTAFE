@@ -22,8 +22,8 @@ class Product
     }
 }
 
+// Required for .body requests in JSON
 app.use(express.json());
-
 
 app.put(`/api/products/`, function(request, response)
 {

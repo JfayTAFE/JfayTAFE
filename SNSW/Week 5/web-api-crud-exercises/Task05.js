@@ -22,8 +22,8 @@ class Product
     }
 }
 
+// Required for .body requests in JSON
 app.use(express.json());
-
 
 app.delete(`/api/products/`, function(request, response)
 {

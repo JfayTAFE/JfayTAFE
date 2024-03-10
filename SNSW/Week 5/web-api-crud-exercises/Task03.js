@@ -22,6 +22,7 @@ class Product
     }
 }
 
+// Required for .body requests in JSON
 app.use(express.json());
 
 // Generate a new product ID
