@@ -41,8 +41,8 @@ function generateProductID()
     // finds the maximum value among the ID's 
     let maxID = Math.max(...existingID);
 
-    // Increment by 1 to get next ID
-    return (maxID + 1).toString();
+    // Increment by 1 to get next ID. pad 2 ensures always 2 digits
+    return (maxID + 1).toString().padStart(2, '0');
 }
 
 app.post(`/api/products/`, function(request, response)
